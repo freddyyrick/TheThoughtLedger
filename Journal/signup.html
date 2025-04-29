@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+  <!-- Slideshow Background -->
+  <div class="slideshow-container">
+    <div class="slide" style="background-image: url('imgs/13.jpg');"></div>
+    <div class="slide" style="background-image: url('imgs/12.jpg');"></div>
+    <div class="slide" style="background-image: url('imgs/11.jpg');"></div>
+    <div class="slide" style="background-image: url('imgs/10.jpg');"></div>
+    <div class="slide" style="background-image: url('imgs/9.jpg');"></div>
+  </div>
+
+  <!-- Sign Up Form -->
+  <div class="signup-container">
+    <div class="signup-box">
+      <h2>SIGN UP</h2>
+      <form action="signup.php" method="post">
+        <label for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first_name" placeholder="Enter your first name" required>
+      
+        <label for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last_name" placeholder="Enter your last name" required>
+      
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required>
+        
+        <label for="confirm-password">Confirm Password</label>
+        <input type="password" id="confirm-password" name="confirm_password" placeholder="Confirm Password" required>
+      
+        <p class="terms">
+          By creating an account, you agree with our 
+          <a href="#">Terms and Conditions</a> and 
+          <a href="#">Privacy Policy</a>.
+        </p>
+      
+        <button type="submit">Sign Up</button>
+      
+        <div class="login-link">
+          Already have an account? <a href="login.html">Login.</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

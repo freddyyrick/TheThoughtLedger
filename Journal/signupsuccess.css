@@ -1,0 +1,49 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.background-wrapper {
+  background: linear-gradient(rgba(254, 254, 254, 0.4), rgba(114, 221, 248, 0.4)), url('imgs/13.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*kunwari glassy*/
+.success-box {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 40px 50px;
+  border-radius: 16px;
+  text-align: center;
+  color: #ffff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Button */
+.success-box button {
+  padding: 10px 25px;
+  background-color: #008ffd;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.success-box button:hover {
+  background-color: #4ff9ff;
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
